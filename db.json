@@ -1,14 +1,19 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "teams": [
+    { "id": 1, "name": "Ducati Team", "manufacturer": "Ducati", "riders": ["Andrea Dovizioso", "Danilo Petrucci"] },
+    { "id": 2, "name": "Repsol Honda Team", "manufacturer": "Honda", "riders": ["Marc Márquez", "Alex Márquez"] },
+    { "id": 3, "name": "Monster Energy Yamaha MotoGP", "manufacturer": "Yamaha", "riders": ["Maverick Viñales", "Valentino Rossi"] }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+  "riders": [
+    { "id": 1, "name": "Andrea Dovizioso", "teamId": 1 },
+    { "id": 2, "name": "Danilo Petrucci", "teamId": 1 },
+    { "id": 3, "name": "Marc Márquez", "teamId": 2 },
+    { "id": 4, "name": "Alex Márquez", "teamId": 2 },
+    { "id": 5, "name": "Maverick Viñales", "teamId": 3 },
+    { "id": 6, "name": "Valentino Rossi", "teamId": 3 }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "races": [
+    { "id": 1, "name": "Italian Grand Prix", "location": "Mugello, Italy", "date": "2024-06-02" },
+    { "id": 2, "name": "Spanish Grand Prix", "location": "Jerez, Spain", "date": "2024-05-05" }
+  ]
 }
