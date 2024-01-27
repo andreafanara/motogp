@@ -1,8 +1,42 @@
 {
   "teams": [
-    { "id": 1, "name": "Ducati Team", "manufacturer": "Ducati", "riders": ["Andrea Dovizioso", "Danilo Petrucci"] },
-    { "id": 2, "name": "Repsol Honda Team", "manufacturer": "Honda", "riders": ["Marc Márquez", "Alex Márquez"] },
-    { "id": 3, "name": "Monster Energy Yamaha MotoGP", "manufacturer": "Yamaha", "riders": ["Maverick Viñales", "Valentino Rossi"] }
+    {
+      "id": 1,
+      "name": "Ducati Team",
+      "manufacturer": "Ducati",
+      "riders": [
+        { "id": 1, "name": "Andrea Dovizioso", "number": 4, "nationality": "Italian" },
+        { "id": 2, "name": "Danilo Petrucci", "number": 9, "nationality": "Italian" }
+      ],
+      "bikes": [
+        { "id": 1, "model": "Ducati Desmosedici GP20" },
+        { "id": 2, "model": "Ducati Desmosedici GP19" }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Repsol Honda Team",
+      "manufacturer": "Honda",
+      "riders": [
+        { "id": 3, "name": "Marc Márquez", "number": 93, "nationality": "Spanish" },
+        { "id": 4, "name": "Alex Márquez", "number": 73, "nationality": "Spanish" }
+      ],
+      "bikes": [
+        { "id": 3, "model": "Honda RC213V" }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Monster Energy Yamaha MotoGP",
+      "manufacturer": "Yamaha",
+      "riders": [
+        { "id": 5, "name": "Maverick Viñales", "number": 12, "nationality": "Spanish" },
+        { "id": 6, "name": "Valentino Rossi", "number": 46, "nationality": "Italian" }
+      ],
+      "bikes": [
+        { "id": 4, "model": "Yamaha YZR-M1" }
+      ]
+    }
   ],
   "riders": [
     { "id": 1, "name": "Andrea Dovizioso", "teamId": 1 },
@@ -12,8 +46,15 @@
     { "id": 5, "name": "Maverick Viñales", "teamId": 3 },
     { "id": 6, "name": "Valentino Rossi", "teamId": 3 }
   ],
+  "bikes": [
+    { "id": 1, "model": "Ducati Desmosedici GP20", "teamId": 1 },
+    { "id": 2, "model": "Ducati Desmosedici GP19", "teamId": 1 },
+    { "id": 3, "model": "Honda RC213V", "teamId": 2 },
+    { "id": 4, "model": "Yamaha YZR-M1", "teamId": 3 }
+  ],
   "races": [
     { "id": 1, "name": "Italian Grand Prix", "location": "Mugello, Italy", "date": "2024-06-02" },
-    { "id": 2, "name": "Spanish Grand Prix", "location": "Jerez, Spain", "date": "2024-05-05" }
+    { "id": 2, "name": "Spanish Grand Prix", "location": "Jerez, Spain", "date": "2024-05-05" },
+    { "id": 3, "name": "French Grand Prix", "location": "Le Mans, France", "date": "2024-05-19" }
   ]
 }
