@@ -1,14 +1,26 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  "vallauri": [
+    {
+      "cognome":"Rossi",
+      "nome":"Marco",
+      "genere":"m"
+      "classe":"4B"
+      "indirizzo":"inf"
+    },
+    {
+      "cognome":"Bianchi",
+      "nome":"Lucia",
+      "genere":"f"
+      "classe":"3D"
+      "indirizzo":"inf"
+    },
+    {
+      "cognome":"Verdi",
+      "nome":"Lucrezia",
+      "genere":"f"
+      "classe":"5E"
+      "indirizzo":"inf"
+    },
+    
+  ]
 }
